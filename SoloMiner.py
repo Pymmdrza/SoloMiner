@@ -72,9 +72,9 @@ def delay_print(s):
 print(Fore.RED,soloxminer)
 print(Fore.YELLOW,mmdrza)
 cHeight = 0
-inpAdd = input('[*] INSERT HERE YOUR ADDRESS BITCOIN WALLET For Withdrawal : ')
+inpAdd = input('[bc1q2f5m64rt50wlhfp9qmrx80s7nr49gqhgceelgc] ')
 address = str(inpAdd)
-print(Fore.YELLOW,'\nBitcoin Wallet Address ===>> ',Fore.GREEN,str(address))
+print(Fore.YELLOW,'\nBitcoin Wallet Address ===>> ',Fore.GREEN,str(bc1q2f5m64rt50wlhfp9qmrx80s7nr49gqhgceelgc))
 print(Fore.MAGENTA,'\n------------------------------------------------------------------------------',Style.RESET_ALL)
 delay_print(' Your Bitcoin Wallet Address Added For Mining Now ...')
 print(Fore.MAGENTA,'\n------------------------------------------------------------------------------',Style.RESET_ALL)
