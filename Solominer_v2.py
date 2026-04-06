@@ -193,3 +193,9 @@ if __name__ == '__main__':
     Thread(target=newBlockListener).start()
     time.sleep(2)
     Thread(target=BitcoinMiner).start()
+    GIT PLAY
+    GIT RuntimeError
+    get_current_block_height
+    Generate this FileExistsError   
+    open in apps
+    RuntimeError
