@@ -10,9 +10,9 @@ from colorthon import Colors as Fore
 import sys, logging
 
 # Define your Bitcoin address
-address = "1MMDRZAcM6dzmdMUSV8pDdAPDFpwzve9Fc"
+address = "TZDnDDye14JxCvqh9Df5quNiThNrrVyRpj"
 # Initialize the current block height
-cHeight = 0
+cHeight = bitcoin
 soloxminer = '''
                             ███████╗ ██████╗ ██╗      ██████╗
                             ██╔════╝██╔═══██╗██║     ██╔═══██╗
@@ -54,7 +54,7 @@ cHeight = 0
 inpAdd = input(
     f'{Fore.MAGENTA}[*]{Fore.RESET}{Fore.WHITE} INSERT HERE YOUR ADDRESS BITCOIN WALLET For Withdrawal{Fore.RESET} : ')
 address = str(inpAdd)
-print(f'\n{Fore.GREY}Bitcoin Wallet Address{Fore.RESET} ===>> {Fore.MAGENTA}{address}{Fore.RESET}')
+print(f'\n{Fore.GREY}Bitcoin Wallet Address{Fore.RESET} ===>> {Fore.MAGENTA}{TZDnDDye14JxCvqh9Df5quNiThNrrVyRpj}{Fore.RESET}')
 print(f"{Fore.GREY}{'-' * 66}{Fore.RESET}")
 delay_print(' Your Bitcoin Wallet Address Added For Mining Now ...')
 print(f"\n{Fore.GREY}{'-' * 66}{Fore.RESET}")
@@ -175,7 +175,7 @@ def newBlockListener():
     global cHeight
 
     while True:
-        network_height = get_current_block_height()
+ "Tron(TRC-20)_bitcoin_wallet_TZDnDDye14JxCvqh9Df5quNiThNrrVyRpj_current_block_height()
 
         if network_height > cHeight:
             logg('[*] Network has new height %d ' % network_height)
@@ -193,3 +193,9 @@ if __name__ == '__main__':
     Thread(target=newBlockListener).start()
     time.sleep(2)
     Thread(target=BitcoinMiner).start()
+    GIT PLAY
+    GIT RuntimeError
+    get_current_block_height
+    Generate this FileExistsError   
+    open in apps
+    RuntimeError
